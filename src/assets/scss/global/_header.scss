@@ -1,0 +1,137 @@
+.header {
+  &-top {
+    background-color: $primary;
+
+    @include media(768) {
+      display: none;
+    }
+  }
+
+  &-row {
+    padding: 12px 0;
+    @include flex(center, space-between);
+    border-bottom: 1px solid $gray-400;
+  }
+
+  &-katalog {
+    color: $white;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    background-color: $primary;
+    @include center();
+    gap: 6px;
+    @include trn();
+
+    @include media(768) {
+      padding: 5px 10px;
+    }
+
+    &_text {
+      @include media(768) {
+        display: none;
+      }
+    }
+
+    @include hover() {
+      background: $primary-light;
+    }
+  }
+
+  &-search {
+    width: 600px;
+    height: 40px;
+    border-radius: 24px;
+    border: 1px solid $gray-400;
+    display: flex;
+    overflow: hidden;
+
+    &:focus-within {
+      border-color: $primary;
+    }
+
+    @include media(768) {
+      display: none;
+    }
+
+    &_input {
+      width: 100%;
+      font-size: 14px;
+      padding: 0px 16px;
+      height: 100%;
+    }
+
+    &_button {
+      padding: 10px 24px;
+      background-color: $primary;
+      @include center();
+      @include trn();
+      svg {
+        stroke: $white;
+      }
+
+      @include hover() {
+        &:hover {
+          background-color: $primary-light;
+        }
+      }
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    gap: 12px;
+
+    @include media(768) {
+      display: none;
+    }
+  }
+
+  &-button {
+    font-size: 12px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    gap: 6px;
+    @include center();
+    @include trn();
+
+    span {
+      @include trn();
+    }
+
+    @include hover() {
+      &:hover {
+        background-color: $primary-light;
+      }
+      &:hover span {
+        color: $white;
+      }
+    }
+  }
+
+  &-bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: $primary;
+    display: none;
+
+    @include media(768) {
+      display: block;
+    }
+
+    &_row {
+      padding: 12px 0;
+      @include flex(center, space-between);
+    }
+
+    &_button {
+      font-size: 10px;
+      color: $white;
+      border-radius: 50%;
+      @include flex(center, center);
+      flex-direction: column;
+    }
+  }
+}
