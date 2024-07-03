@@ -2,6 +2,44 @@
   &-top {
     background-color: $primary;
 
+    &_row {
+      padding: 6px 0px;
+      @include flex(center, space-between);
+    }
+
+    &_loc {
+      color: $white;
+      @include flex(center);
+      gap: 6px;
+
+      span {
+        width: auto;
+        height: 16px;
+      }
+    }
+
+    &_right {
+      @include flex(center);
+      gap: 12px;
+    }
+
+    &_order {
+      color: $white;
+    }
+
+    &_lan {
+      color: $white;
+      @include center();
+      gap: 4px;
+      padding: 2px;
+      border-radius: 6px;
+
+      span {
+        width: auto;
+        height: 16px;
+      }
+    }
+
     @include media(768) {
       display: none;
     }
@@ -62,7 +100,7 @@
     }
 
     &_button {
-      padding: 10px 24px;
+      padding: 12px 28px;
       background-color: $primary;
       @include center();
       @include trn();
@@ -90,7 +128,7 @@
   &-button {
     font-size: 12px;
     padding: 6px 12px;
-    border-radius: 4px;
+    border-radius: 6px;
     gap: 6px;
     @include center();
     @include trn();
@@ -101,19 +139,17 @@
 
     @include hover() {
       &:hover {
-        background-color: $primary-light;
-      }
-      &:hover span {
-        color: $white;
+        background-color: $gray-700;
       }
     }
   }
 
   &-bottom {
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
+    z-index: 100;
     background-color: $primary;
     display: none;
 

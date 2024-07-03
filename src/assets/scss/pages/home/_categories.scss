@@ -1,0 +1,59 @@
+.categories {
+  // margin-top: 40px;
+
+  &-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-top {
+    @include flex(center, space-between);
+  }
+
+  &-title {
+    font-size: 26px;
+    font-weight: 600;
+  }
+
+  &-button {
+    font-size: 16px;
+    padding: 6px;
+    @include center();
+    @include trn();
+
+    span {
+      height: 20px;
+    }
+
+    @include hover() {
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &-content {
+    display: flex;
+    margin-top: 14px;
+    gap: 20px;
+  }
+
+  &-item {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 6px 12px;
+    background-color: $gray-700;
+    border-radius: 4px;
+    @include flex(center, flex-end);
+    flex-direction: column;
+    gap: 6px;
+    @include trn();
+
+    @include hover() {
+      &:hover {
+        background-color: $primary-light;
+        color: $white;
+      }
+    }
+  }
+}

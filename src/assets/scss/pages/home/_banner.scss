@@ -1,0 +1,115 @@
+.banner {
+  margin-top: 24px;
+
+  &-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &-top {
+    display: flex;
+    gap: 20px;
+    height: 400px;
+
+    &_left {
+      width: 62%;
+      position: relative;
+      border-radius: 12px;
+
+      &_swiper_buttons {
+        width: 120px;
+        height: 26px;
+        padding: 6px;
+        border-radius: 50px;
+        background-color: $gray-700;
+        @include flex(center, space-between);
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        z-index: 10;
+        transform: translateX(-50%);
+      }
+
+      &_slide {
+        border-radius: 12px;
+        background: #000;
+      }
+    }
+
+    &_right {
+      width: 38%;
+      background: #000;
+      border-radius: 12px;
+    }
+  }
+
+  &-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+
+    &_left {
+      width: 50%;
+      background: #000;
+      height: 300px;
+      border-radius: 12px;
+    }
+    &_center {
+      width: 25%;
+      background: #000;
+      height: 300px;
+      border-radius: 12px;
+    }
+    &_right {
+      width: 25%;
+      background: #000;
+      height: 300px;
+      border-radius: 12px;
+    }
+  }
+}
+
+.swiper-buttons {
+  width: auto;
+  height: auto;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: $gray-700;
+  @include flex(center, space-between);
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 10;
+  transform: translateX(-50%);
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: auto;
+  padding: 4px;
+  // height: auto;
+  // top: 30px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: $primary;
+  font-size: 16px;
+}
+.swiper-pagination {
+  @include center();
+  top: unset !important;
+  bottom: unset !important;
+  right: unset !important;
+  left: unset !important;
+  position: unset !important;
+  padding: 6px 20px;
+}
+
+.swiper-pagination-bullet {
+  background-color: $primary;
+  width: 6px;
+  height: 6px;
+}
