@@ -62,11 +62,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -90,11 +90,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -118,11 +118,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -146,11 +146,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -174,11 +174,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -202,11 +202,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -230,11 +230,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -258,11 +258,39 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                {/* <span className='product-info_dis'>10% OFF</span> */}
+                {/* <span className='product-info_new'>NEW</span> */}
+                <span className='product-info_best'>BEST SELLER</span>
+                {/* <span className='product-info_top'>TOP RATED</span> */}
+              </div>
+              <div className="bests-card_content">
+                <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
+                <div className='bests-card_row'>
+                  <div className='bests-card_col'>
+                    <p className="bests-card_price">12 000 сум</p>
+                    <p className='bests-card_oldPrice'> 12 000 сум  </p>
+                  </div>
+                  <button className='bests-card_button'>
+                    <ShoppingBag size={20} strokeWidth={1.5} />
+                  </button>
+                </div>
+              </div>
+            </div>
+            {/* <div className='bests-card'>
+              <div className="bests-card_fav">
+                <button className="bests-card_fav_btn">
+                  <Heart size={20} strokeWidth={1.5} />
+                </button>
+              </div>
+              <div className="bests-card_img">
+                <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
+              </div>
+              <div className='product-info'>
+                <span className='product-info_dis'>10% OFF</span>
+                <span className='product-info_new'>NEW</span>
+                <span className='product-info_best'>BEST SELLER</span>
+                <span className='product-info_top'>TOP RATED</span>
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -286,11 +314,11 @@ function BestSeller() {
               <div className="bests-card_img">
                 <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
               </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
+              <div className='product-info'>
+                <span className='product-info_dis'>10% OFF</span>
+                <span className='product-info_new'>NEW</span>
+                <span className='product-info_best'>BEST SELLER</span>
+                <span className='product-info_top'>TOP RATED</span>
               </div>
               <div className="bests-card_content">
                 <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
@@ -304,35 +332,7 @@ function BestSeller() {
                   </button>
                 </div>
               </div>
-            </div>
-            <div className='bests-card'>
-              <div className="bests-card_fav">
-                <button className="bests-card_fav_btn">
-                  <Heart size={20} strokeWidth={1.5} />
-                </button>
-              </div>
-              <div className="bests-card_img">
-                <img src="https://ui-themez.smartinnovates.net/items/swoo_html/home_electronic/assets/img/products/prod4.png" alt="" />
-              </div>
-              <div className='bests-card_info'>
-                {/* <span className='bests-card_info_dis'>10% OFF</span> */}
-                {/* <span className='bests-card_info_new'>NEW</span> */}
-                <span className='bests-card_info_best'>BEST SELLER</span>
-                {/* <span className='bests-card_info_top'>TOP RATED</span> */}
-              </div>
-              <div className="bests-card_content">
-                <h3 className="bests-card_title">Игровая механическая клавиатура Yingbao Rubber</h3>
-                <div className='bests-card_row'>
-                  <div className='bests-card_col'>
-                    <p className="bests-card_price">12 000 сум</p>
-                    <p className='bests-card_oldPrice'> 12 000 сум  </p>
-                  </div>
-                  <button className='bests-card_button'>
-                    <ShoppingBag size={20} strokeWidth={1.5} />
-                  </button>
-                </div>
-              </div>
-            </div>
+            </div> */}
 
 
 
