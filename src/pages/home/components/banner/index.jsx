@@ -33,9 +33,9 @@ function Banner() {
               <SwiperSlide className='banner-top_left_slide'>Slide 2</SwiperSlide>
 
               <div className='banner-top_left_swiper_buttons'>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next"></div>
+                <div className="swiper-button-prev"></div>
+                <div className="swiper-pagination"></div>
+                <div className="swiper-button-next"></div>
               </div>
             </Swiper>
             <div className='banner-top_right'></div>

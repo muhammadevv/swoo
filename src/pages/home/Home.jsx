@@ -1,12 +1,14 @@
 import React from 'react'
-import { Banner, BestSeller, Categories } from './components'
+import { Banner, BestSeller, Brands, Categories, Discout } from './components'
 
 function Home() {
   return (
     <>
-      {/* <Categories /> */}
       <Banner />
       <BestSeller />
+      <Discout />
+      <Categories />
+      <Brands />
     </>
   )
 }
