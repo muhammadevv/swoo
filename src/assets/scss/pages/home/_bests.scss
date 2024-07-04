@@ -41,7 +41,7 @@
       grid-gap: 16px;
     }
 
-    @include media(375) {
+    @include media(412) {
       grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(3, 1fr);
       margin-top: 20px;
