@@ -32,8 +32,9 @@
       }
 
       &_slide {
+        overflow: hidden;
         border-radius: 12px;
-        background: #000;
+        background-color: $black;
       }
     }
 

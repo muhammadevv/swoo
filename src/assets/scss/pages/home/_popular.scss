@@ -1,9 +1,11 @@
-.bests {
+.popular {
   margin-top: 40px;
 
   &-row {
     border-radius: 24px;
     padding: 40px 20px 20px 20px;
+    background-color: $gray-900;
+
     @include media(1380) {
       padding: 40px 30px;
     }
@@ -29,7 +31,10 @@
 
   &-content {
     margin-top: 40px;
-    padding: 0 0px 60px 0px;
+    padding: 0 10px 20px 10px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
     // display: grid;
     // grid-template-columns: repeat(5, 1fr);
     // grid-gap: 20px;
@@ -54,7 +59,7 @@
     border-radius: 8px;
     padding: 12px 12px 16px 12px;
     background-color: $white;
-    border: 1px solid $gray-500;
+    border: 1px solid $gray-700;
     @include flex(unset, space-between);
     flex-direction: column;
     user-select: none;
@@ -132,46 +137,6 @@
           background-color: $primary;
         }
       }
-    }
-  }
-
-  &-banner {
-    margin-top: 40px;
-    padding-top: 20px;
-    border-radius: 12px;
-    background-color: $gray-700;
-    @include flex(center, space-around);
-
-    &_content {
-      // display: flex;
-      // flex-direction: column;
-      // gap: 10px;
-    }
-
-    &_title {
-      color: $white;
-      font-size: 26px;
-    }
-
-    &_subtitle {
-      color: $white;
-      font-size: 18px;
-    }
-    &_button {
-      border-radius: 16px;
-      padding: 6px 16px;
-      background-color: $white;
-      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
-
-      @include hover() {
-        &:hover {
-          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.2);
-        }
-      }
-    }
-    &_img {
-      width: 26%;
-      height: 100%;
     }
   }
 }

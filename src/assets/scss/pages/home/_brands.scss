@@ -3,12 +3,13 @@
 
   &-row {
     border-radius: 24px;
-    padding: 24px 20px 0px 20px;
+    padding: 20px;
     background: $gray-900;
   }
 
   &-top {
     margin-top: 18px;
+    padding: 0 20px;
     display: flex;
     flex-direction: column;
 
@@ -21,120 +22,36 @@
   &-content {
     display: flex;
     margin-top: 40px;
-    padding-bottom: 60px;
     position: relative;
+    padding: 0 20px 60px 20px;
   }
 
-  &-card {
-    // width: 240px;
-    // height: 360px;
+  &-box {
+    width: 32.2% !important;
+    height: 240px;
     border-radius: 8px;
     padding: 12px 12px 16px 12px;
     background-color: $white;
     border: 1px solid $gray-500;
     @include flex(unset, space-between);
     flex-direction: column;
-
-    &_fav {
-      width: 100%;
-      margin-bottom: 6px;
-      @include flex(center, end);
-
-      &_btn {
-        color: $primary;
-        padding: 6px;
-        @include center();
-        background: $gray-700;
-        border-radius: 50%;
-        @include trn();
-
-        @include hover() {
-          &:hover {
-            color: $white;
-            background-color: $primary;
-          }
-        }
-      }
-    }
-
-    &_img {
-      width: 100%;
-    }
+    position: relative;
 
     &_content {
-      // margin-top: 8px;
-    }
-
-    &_row {
-      height: 48px;
-      margin-top: 12px;
-      @include flex(center, space-between);
-    }
-
-    &_info {
-      height: 24px;
-      margin-top: 14px;
+      z-index: 2;
       display: flex;
-      align-items: center;
-      gap: 4px;
-      // flex-wrap: wrap;
-
-      &_dis {
-        color: $white;
-        font-size: 10px;
-        line-height: 160%;
-        padding: 4px 8px;
-        border-radius: 24px;
-        background-color: $red;
-      }
-
-      &_new {
-        color: $white;
-        font-size: 10px;
-        line-height: 200%;
-        padding: 2px 8px;
-        border-radius: 24px;
-        background-color: $blue;
-      }
-
-      &_best {
-        color: $white;
-        font-size: 10px;
-        line-height: 160%;
-        padding: 4px 8px;
-        border-radius: 24px;
-        background-color: $primary;
-      }
-
-      &_top {
-        color: $white;
-        font-size: 10px;
-        line-height: 160%;
-        padding: 4px 8px;
-        border-radius: 24px;
-        background-color: $green;
-      }
+      padding: 10px;
+      position: absolute;
+      flex-direction: column;
     }
 
     &_title {
-      font-size: 14px;
-    }
-
-    &_price {
-      color: $red;
-      font-size: 22px;
-      font-weight: 600;
-      line-height: 120%;
-    }
-
-    &_oldPrice {
       font-size: 18px;
-      font-weight: 600;
-      line-height: 120%;
-      color: $gray-300;
-      text-decoration: line-through;
     }
 
+    &_subtitle {
+      font-size: 12px;
+    }
     &_button {
       color: $primary;
       padding: 6px 8px;
@@ -149,12 +66,14 @@
         }
       }
     }
-  }
-}
 
-.bests-product {
-  width: 230px;
-  height: 400px;
-  border: 1px solid $primary-light;
-  border-radius: 8px;
+    &_img {
+      // width: 100%;
+      // height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+  }
 }

@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Autoplay, Navigation, Pagination } from 'swiper/modules';
 
 
 function Banner() {
@@ -22,9 +22,14 @@ function Banner() {
                 el: '.swiper-pagination',
                 type: 'bullets',
               }}
+              autoplay={{
+                delay: 2000,
+                disableOnInteraction: false,
+              }}
+              speed={1000}
               spaceBetween={20}
               loop={true}
-              modules={[Navigation, Pagination,]}
+              modules={[Autoplay, Navigation, Pagination,]}
               className="banner-top_left"
             >
               <SwiperSlide className='banner-top_left_slide'>
@@ -46,6 +51,7 @@ function Banner() {
             <div className="banner-bottom_right"></div>
           </div>
         </div>
+        
       </div>
     </section >
   )

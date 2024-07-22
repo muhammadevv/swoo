@@ -1,3 +1,9 @@
-.footer{
+.footer {
+  margin-top: 60px;
+  width: 100%;
+  padding: 10px;
 
+  &-row {
+    border-top: 1px solid $gray-900;
+  }
 }

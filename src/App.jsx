@@ -1,5 +1,5 @@
-import Header from "./components/Header"
-import { Home } from "./pages"
+import { Footer, Header } from "./components"
+import { HomePage } from "./pages"
 
 function App() {
 
@@ -7,8 +7,9 @@ function App() {
     <>
       <Header />
       <main className="main">
-        <Home />
+        <HomePage />
       </main>
+      <Footer />
     </>
   )
 }

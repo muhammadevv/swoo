@@ -1,3 +1,4 @@
-import Home from "./home/Home";
+import CategoriesPage from "./categories/CategoriesPage";
+import HomePage from "./home/HomePage";
 
-export { Home };
+export { HomePage, CategoriesPage};
